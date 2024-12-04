@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Palindrome Checker</title>
 </head>
-<body>
-    <h1>Is it a Palindrome?</h1>
+<body class="center-body">
+    <div class="center-container">
+        <h1>Is it a Palindrome?</h1>
 
-    <div>
-        <label for="text-input">Enter in text to check for a palindrome: </label>
-        <input type="text" id="text-input">
-        <button id="check-btn" onclick="checkPalindrome()">Submit</button>
-        <p id="result"></p>
+        <div>
+            <label for="text-input">Enter in text to check for a palindrome: </label>
+            <input type="text" id="text-input">
+            <button id="check-btn" onclick="checkPalindrome()">Submit</button>
+            <p id="result"></p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

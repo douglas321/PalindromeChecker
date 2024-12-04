@@ -17,8 +17,8 @@ function checkPalindrome(){
 
     const resultElement = document.getElementById("result"); 
     if (cleanedText === reversedText){
-        resultElement.textContent = `${text} is a palindrome.`
+        resultElement.textContent = `${text} IS a palindrome.`
     }   else{
-        resultElement.textContent = `${text} is not a palindrome.`
+        resultElement.textContent = `${text} is NOT a palindrome.`
     }
 }
